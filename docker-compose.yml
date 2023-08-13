@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  ytdl:
+    image: ytdl:1.0
+    volumes:
+      - C:/docker/ytdl:/home/gatomek/
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+
